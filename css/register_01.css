@@ -1,0 +1,210 @@
+/*初始化*/
+html,
+body,
+div,
+ul,
+li,
+ol,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 12px/150% arial, 'Microsoft Yahei', Helvetica, Arial, STXihei, SimSun, sans-serif;
+  color: #3c3c3c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+img {
+  border: 0;
+  display: block;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+@font-face {
+  font-family: 'myself';
+  src: url('../fonts/icomoon.eot');
+  src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#uxiconfont') format('svg');
+}
+.box-c {
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.topbar {
+  background-color: #F2F2F2;
+  height: 32px;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+  color: #6c6c6c;
+  font-size: 12px;
+}
+.topbar .page-rs {
+  padding-top: 8px;
+  width: 1200px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.topbar .page-rs .login-bar {
+  height: 24px;
+  float: left;
+}
+.topbar .page-rs .login-bar a {
+  text-decoration: underline;
+  color: #EC3E7D;
+}
+.topbar .page-rs .member-link {
+  float: right;
+}
+.topbar .page-rs .member-link .list-item {
+  float: left;
+  padding: 8px 15px 0 15px;
+  margin-top: -8px;
+  height: 24px;
+}
+.topbar .page-rs .member-link .list-item .triangle-btn1 {
+  position: relative;
+  display: block;
+  float: right;
+  height: 0;
+  width: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #6c6c6c transparent transparent transparent;
+  top: 8px;
+  left: -2px;
+}
+.topbar .page-rs .member-link .list-item .triangle-btn2 {
+  position: relative;
+  display: block;
+  float: right;
+  height: 0;
+  width: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #eeeeee transparent transparent transparent;
+  top: 7px;
+  left: 8px;
+}
+.topbar .page-rs .member-link .list-item:first-child,
+.topbar .page-rs .member-link .list-item:nth-child(2) {
+  position: relative;
+}
+.topbar .page-rs .member-link .list-item:nth-child(2) .show-account {
+  left: auto;
+  right: 0;
+  width: 160px;
+  height: 80px;
+  display: none;
+}
+.topbar .page-rs .member-link .list-item:nth-child(2) .show-account p {
+  padding: 20px 0 0 20px;
+  padding-top: 8px;
+}
+.topbar .page-rs .member-link .list-item:nth-child(2):hover .show-account {
+  display: block;
+}
+.topbar .page-rs .member-link .list-item:first-child:hover .show-account {
+  height: 150px;
+}
+.topbar .page-rs .member-link .list-item .show-account {
+  z-index: 1;
+  transition: height .3s linear 0s;
+  position: absolute;
+  top: 32px;
+  left: 0;
+  background: #FFFFFF;
+  padding: 0 20px;
+  width: 71px;
+  height: 0;
+  overflow: hidden;
+}
+.topbar .page-rs .member-link .list-item .show-account li {
+  padding-top: 8px;
+}
+.topbar .page-rs .member-link .list-item .show-account a {
+  color: #888888;
+  font-size: 12px;
+}
+.topbar .page-rs .member-link .list-item .show-account a:hover {
+  color: #ED3E7D;
+}
+.topbar .page-rs .member-link .list-item:hover {
+  cursor: pointer;
+}
+.topbar .page-rs .member-link .list-item:last-child .font-icon {
+  display: block;
+  float: right;
+  position: relative;
+  font-size: 16px;
+}
+.topbar .page-rs .member-link .list-item:last-child .font-icon .show-two-code {
+  position: absolute;
+  top: 24px;
+  left: -68px;
+  height: 100px;
+  width: 100px;
+  box-shadow: 3px 3px 6px #dddddd, -3px 3px 6px #dddddd;
+  background: url(../images/two-code.png);
+  display: none;
+}
+.topbar .page-rs .member-link .list-item:last-child .font-icon .show-two-code:hover {
+  display: block;
+}
+.topbar .page-rs .member-link .list-item:last-child .font-icon:hover .show-two-code {
+  display: block;
+}
+.topbar .page-rs .member-link .list-item:hover {
+  background-color: #FFFFFF;
+}
+.topbar .page-rs .member-link .list-item:last-child .font-icon {
+  color: #EBAE62;
+}
+.topbar .page-rs .member-link .font-icon {
+  font-family: 'myself';
+  color: #808080;
+  color: #EC3D7D;
+}
+.sasa_logo{
+  margin:0 auto;
+  width:1200px;
+
+}
